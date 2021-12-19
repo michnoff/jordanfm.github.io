@@ -1,0 +1,21 @@
+body {
+	background-color:#000;
+	margin-top:50px;
+}
+
+#spin {
+	top:50%;
+	margin: 0 auto;
+	width:233px;
+	height:233px;
+	background-image:url("../img/jv.png");
+	animation-name:rotate;
+	animation-duration:666s;
+	animation-iteration-count:infinite;
+	animation-timing-function:linear;
+}
+
+@keyframes rotate{
+	from{ transform: rotate(-360deg); }
+	to{ transform: rotate(360deg); }
+}
